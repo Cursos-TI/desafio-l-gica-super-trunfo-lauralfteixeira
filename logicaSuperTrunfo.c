@@ -69,7 +69,7 @@ void exibir_carta(struct Carta carta, int numero_carta) {
 void comparar_cartas(struct Carta carta1, struct Carta carta2) {
     printf("--- Comparacao de Cartas ---\n");
 
-    // Comparação com base no dado Populacao
+    // Comparação dado Populacao
     printf("Comparando com base na Populacao...\n");
 
     if (carta1.populacao > carta2.populacao) {
